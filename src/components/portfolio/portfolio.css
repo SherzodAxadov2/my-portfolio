@@ -1,0 +1,34 @@
+.container{
+    padding-top: 60px;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    color: #FDFDFD;
+}
+.icons{
+    color: #FDFDFD;
+}
+.card-body{
+    background-color: black;
+}
+.icons{
+    padding-left: 65px;
+    padding-right: 20px;
+    color: #FDFDFD;
+    opacity: 0.6;
+}
+.col{
+    border: none;
+}
+.color{
+    background-color: aqua;
+    width: 100%;
+    height: 4px;
+}
+.card-title{
+    background: none;
+}
+.card-time{
+    background: none;
+}

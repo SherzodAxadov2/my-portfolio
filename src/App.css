@@ -1,0 +1,39 @@
+@font-face {
+    font-family: mono;
+    src: url('./assets/fonts/RobotoMono-VariableFont_wght.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: mono;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #111111;
+    --secondary-color: #2EA8C7;
+}
+
+html {
+    background-color: #222222;
+}

@@ -1,0 +1,117 @@
+.nav * {
+    background-color: var(--primary-color);
+}
+
+.navbar-component {
+    width: 100%;
+    display: block;
+    background-color: var(--primary-color);
+    color: #fdfdfd;
+    padding: 20px 40px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.moon svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+    color: var(--secondary-color);
+}
+
+.nav-langs {
+    color: #FDFDFD;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-langs::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 1px;
+    background-color: #FDFDFD;
+}
+
+.nav-langs::after {
+    content: '';
+    position: absolute;
+    right: -28px;
+    top: 2px;
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/icons/arrow-down.png) center center no-repeat;
+}
+
+.nav-langs ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transition: all 1s;
+}
+
+.nav-langs ul.open {
+    display: block !important;
+}
+
+.nav-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+.nav-title span {
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FDFDFD;
+    transition: all .3s;
+}
+
+.nav-title span:first-child {
+    color: var(--secondary-color);
+    position: relative;
+
+}
+
+.nav-title span:last-child::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fdfdfd;
+    transition: all .3s;
+}
+
+.nav-title span:first-child::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--secondary-color);
+}
+
+.nav-title span:last-child:hover {
+    color: var(--secondary-color);
+}
+
+.nav-title span:last-child:hover::before {
+    background-color: var(--secondary-color);
+}

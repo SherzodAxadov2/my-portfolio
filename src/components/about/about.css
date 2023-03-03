@@ -1,0 +1,270 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.Container{
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 5% 13% 10% 13%;
+}
+.Container h1{
+    color: rgba(253, 253, 253, 1);
+    font-size: 24px;
+}
+.Container p{
+    color: #FDFDFD;
+
+
+}
+.upper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+.upper h1{
+    font-size: 16px;
+    color:#FDFDFD;
+}
+.upper h2{
+    font-size: 16px;
+    color: #FDFDFD;
+    opacity: 0.8;
+}
+.upper-left{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+.upper-right{
+    display: flex;
+    width: 31%;
+    justify-content: space-between;
+    margin-right: 18%;
+}
+
+Button{
+    background-color: none;
+    padding: 1.5% 5% 1.5% 5%;
+    color: #2EA8C7;
+    border: 2px solid #2EA8C7;;
+    margin-bottom: 10%;
+    font-size: 20px;
+    row-gap: 5%;
+}
+Button:hover{
+    background: #2EA8C7;
+    color: white;
+}
+.Bottom{
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 10%;
+
+ }
+.Left-Bottom{
+    width: 27%;
+
+}
+.bttn{
+    display: flex;
+    background-color: none;
+    padding: 10% 15% 10% 15%;
+    color:   rgb(157, 141, 141);
+    border: 2px solid  rgb(157, 141, 141);
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    margin-top: 7%;
+   justify-content: center;
+}
+.b{
+    background-color: none;
+    padding: 1.5% 5% 1.5% 5%;
+    color: #2EA8C7;
+    border: 2px solid #2EA8C7;;
+    margin-bottom: 10%;
+    font-size: 20px;
+    row-gap: 5%;
+
+}
+.b:hover{
+    color:white;
+    background-color:  #2EA8C7;
+
+}
+.bttn h1{
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(157, 141, 141);
+}
+.bttn img{
+    color:  rgb(157, 141, 141);
+}
+.bttn:hover{
+    color: white;
+    background-color: #2EA8C7 ;
+}
+.bttn:hover img{
+    color: white;
+    background-color: #2EA8C7 ;
+}
+.bttn:hover h1{
+    color: white;
+    background-color: #2EA8C7 ;
+}
+.Right-Bottom{
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 7px;
+    border: 0.5px solid  rgb(157, 141, 141);
+
+
+}
+.Nav{
+    width: 100%;
+    background-color:  rgba(17, 17, 17, 1);
+    height: 20%;
+    color: #2EA8C7;
+    border-bottom: 1px;
+    border-top: 0.5px;
+    border-left: 0.5px;
+    border-right: 0.5px;
+    border:  solid rgb(157, 141, 141);
+}
+.Text-area{
+    width: 100%;
+    height: 100%;
+
+}
+.Text-area hr{
+    width: 17%;
+    color: #2EA8C7;
+    border-top: 3px solid;
+
+}
+.Edu{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    border:0.5px solid rgb(157, 141, 141) ;
+
+}
+.Exp{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    border:0.5px solid rgb(157, 141, 141) ;
+}
+.Ski{
+    height: 100%;
+    display: flex;
+    padding: 2%;
+    height: auto;
+    border:0.5px solid rgb(157, 141, 141) ;
+}
+.footer{
+    width: 100%;
+
+    height: 20%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1{
+    font-size: 36px;
+    color: #2EA8C7;
+}
+.bir, .ikki, .uch {
+    display: flex;
+    color: #FDFDFD;
+    width: 80%;
+} 
+.ikki, .uch {
+    margin-left: 15%;
+}
+.footer img {
+    width: 70px;
+    height: 70px;
+}
+.o{
+    margin-left: 10%;
+}
+.hr{
+    margin-top:20%;
+}
+.Adobe{
+    margin-left: 20%;
+}
+.buttn{
+    border-radius: 5px;
+    margin-right: 4%;
+    width: 27%;
+}
+@media (max-width:683px) {
+    .Ski{
+        display: block;
+
+    }    
+    .Adobe{
+        margin-left: 0%;
+    }
+    .Bottom{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .Left-Bottom{
+        margin: auto;
+        width: 100%;
+        font-size: 44px;
+
+    }
+    .Right-Bottom{
+        margin: auto;
+        width: 100%;
+    }
+    .Buttons button{
+        display: block;
+        margin-top: 5%;
+        width: 100%;
+        font-size: 34px;
+    }
+    .upper{
+        display: inline-block;
+        width: 100%;
+    }
+    .upper h2{
+        margin-left: 35%;
+        line-height: 34px;
+    }
+    .upper h1{
+        line-height: 34px;
+    }
+    .Right-Keys h1{
+        width: 100%;
+    }
+     .Right-values h2{
+        width: 100%;
+        margin-left: 45%;
+    }
+    .footer{
+        display: block;
+        align-items: center;
+        text-align: center;
+
+    }
+    .footer>div{
+        margin: auto;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,60 @@
+.home-component {
+    width: 100%;
+    padding-top: 50px;
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+}
+
+.home-component * {
+    background-color: var(--primary-color);
+}
+
+.home-component .container {
+    padding: 0;
+}
+
+.home-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.home-top .hr {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 50%;
+    height: 3px;
+    background-color: var(--secondary-color);
+}
+
+.home-top > div h1 {
+    color: #fff;
+}
+
+.home-top > div p {
+    color: var(--secondary-color);
+}
+
+.home-component .wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    background-color: #222222;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.home-component .wrapper a {
+    text-decoration: none;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-component .wrapper > div {
+    height: 200px;
+}
